@@ -201,7 +201,16 @@ function App() {
   };
 
   const functionOptions = [
-    { label: 'Send Key Stroke', value: 'sendKeyStroke', parameters: ['KEY_A', 'KEY_B', 'KEY_C'] },
+    { label: 'Send Key Stroke', value: 'sendKeyStroke', parameters: [
+      'KEY_A', 'KEY_B', 'KEY_C', 'KEY_D', 'KEY_E', 'KEY_F', 'KEY_G', 'KEY_H', 'KEY_I', 'KEY_J', 'KEY_K', 'KEY_L', 'KEY_M', 'KEY_N', 'KEY_O', 'KEY_P', 'KEY_Q', 'KEY_R', 'KEY_S', 'KEY_T', 'KEY_U', 'KEY_V', 'KEY_W', 'KEY_X', 'KEY_Y', 'KEY_Z',
+      'KEY_1', 'KEY_2', 'KEY_3', 'KEY_4', 'KEY_5', 'KEY_6', 'KEY_7', 'KEY_8', 'KEY_9', 'KEY_0',
+      'KEY_ENTER', 'KEY_ESC', 'KEY_BACKSPACE', 'KEY_TAB', 'KEY_SPACE', 'KEY_MINUS', 'KEY_EQUAL', 'KEY_LEFT_BRACE', 'KEY_RIGHT_BRACE', 'KEY_BACKSLASH', 'KEY_NON_US_NUM', 'KEY_SEMICOLON', 'KEY_QUOTE', 'KEY_TILDE', 'KEY_COMMA', 'KEY_PERIOD', 'KEY_SLASH',
+      'KEY_CAPS_LOCK', 'KEY_F1', 'KEY_F2', 'KEY_F3', 'KEY_F4', 'KEY_F5', 'KEY_F6', 'KEY_F7', 'KEY_F8', 'KEY_F9', 'KEY_F10', 'KEY_F11', 'KEY_F12',
+      'KEY_PRINTSCREEN', 'KEY_SCROLL_LOCK', 'KEY_PAUSE', 'KEY_INSERT', 'KEY_HOME', 'KEY_PAGE_UP', 'KEY_DELETE', 'KEY_END', 'KEY_PAGE_DOWN', 'KEY_RIGHT', 'KEY_LEFT', 'KEY_DOWN', 'KEY_UP',
+      'KEY_NUM_LOCK', 'KEYPAD_SLASH', 'KEYPAD_ASTERISK', 'KEYPAD_MINUS', 'KEYPAD_PLUS', 'KEYPAD_ENTER', 'KEYPAD_1', 'KEYPAD_2', 'KEYPAD_3', 'KEYPAD_4', 'KEYPAD_5', 'KEYPAD_6', 'KEYPAD_7', 'KEYPAD_8', 'KEYPAD_9', 'KEYPAD_0', 'KEYPAD_PERIOD',
+      'KEY_NON_US_BS', 'KEY_APPLICATION', 'KEY_POWER', 'KEYPAD_EQUAL',
+      'MOD_CTRL_LEFT', 'MOD_SHIFT_LEFT', 'MOD_ALT_LEFT', 'MOD_GUI_LEFT', 'MOD_CTRL_RIGHT', 'MOD_SHIFT_RIGHT', 'MOD_ALT_RIGHT', 'MOD_GUI_RIGHT'
+  ] },
     { label: 'Delay', value: 'delay', parameters: [] },
     { label: 'Print', value: 'print', parameters: [] },
   ];
